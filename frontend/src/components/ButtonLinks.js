@@ -2,7 +2,7 @@ const ButtonLinks = () => {
     return (
         <>
         <div className="flex justify-between gap-2">
-        <a href="https://github.com/PierreLessard">
+        <a href="https://github.com/PierreLessard" target="_blank" rel="noreferrer">
             <button
                 type="button"
                 className="p-3 px-6 text-white bg-[#24292F] hover:bg-[#24292F]/90 focus:ring-4 focus:outline-none focus:ring-[#24292F]/50 font-medium rounded-lg text-sm text-center inline-flex items-center dark:focus:ring-gray-500 dark:hover:bg-[#050708]/30"
@@ -25,7 +25,7 @@ const ButtonLinks = () => {
             </button>
         </a>
 
-        <a href="https://www.linkedin.com/in/pierre-william-lessard/">
+        <a href="https://www.linkedin.com/in/pierre-william-lessard/" target="_blank" rel="noreferrer">
             <button
                 type="button"
                 className="p-3 px-6 text-white bg-[#0077b5] hover:bg-[#24292F]/90 focus:ring-4 focus:outline-none focus:ring-[#24292F]/50 font-medium rounded-lg text-sm text-center inline-flex items-center dark:focus:ring-gray-500 dark:hover:bg-[#050708]/30"
@@ -41,10 +41,10 @@ const ButtonLinks = () => {
             </button>
         </a>
 
-        <a href="https://leetcode.com/PierreLessard/">
+        <a href="https://leetcode.com/PierreLessard/" target="_blank" rel="noreferrer">
         <button type="button"
-                class="p-3 px-6 text-white bg-[#282828] hover:bg-[#24292F]/90 focus:ring-4 focus:outline-none focus:ring-[#24292F]/50 font-medium rounded-lg text-sm text-center inline-flex items-center dark:focus:ring-gray-500 dark:hover:bg-[#050708]/30">
-            <img alt="File:LeetCode logo white no text.svg" class="h-4 w-4" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/LeetCode_logo_white_no_text.svg/94px-LeetCode_logo_white_no_text.svg.png?20200120234911" decoding="async" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/LeetCode_logo_white_no_text.svg/141px-LeetCode_logo_white_no_text.svg.png?20200120234911 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/LeetCode_logo_white_no_text.svg/188px-LeetCode_logo_white_no_text.svg.png?20200120234911 2x" data-file-width="94" data-file-height="111"/>
+                class="p-2.5 px-6 text-white bg-[#282828] hover:bg-[#24292F]/90 focus:ring-4 focus:outline-none focus:ring-[#24292F]/50 font-medium rounded-lg text-sm text-center inline-flex items-center dark:focus:ring-gray-500 dark:hover:bg-[#050708]/30">
+            <img alt="File:LeetCode logo white no text.svg" class="h-5 w-4" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/LeetCode_logo_white_no_text.svg/94px-LeetCode_logo_white_no_text.svg.png?20200120234911" decoding="async" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/LeetCode_logo_white_no_text.svg/141px-LeetCode_logo_white_no_text.svg.png?20200120234911 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/LeetCode_logo_white_no_text.svg/188px-LeetCode_logo_white_no_text.svg.png?20200120234911 2x" data-file-width="94" data-file-height="111"/>
         </button>
         </a>
 
