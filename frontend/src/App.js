@@ -43,8 +43,8 @@ function App() {
         {/* <Nav homeRef={homeRef} educationRef={educationRef} workRef={workRef} projectRef={projectRef}/> */}
 
         <div class="bg-[url('../public/bg1.jpg')] bg-cover">
-            <div class="grid grid-cols-12 gap-[40px] bg-scroll pt-[120px] w-full">
-                <div className='col-span-4 flex justify-end pt-10 items-center h-screen sticky top-[60px]'>
+            <div class="grid grid-cols-12 gap-[40px] bg-scroll pt-[200px] w-full">
+                <div className='col-span-4 flex justify-end items-start h-screen sticky top-[200px]'>
                     <div class="p-5 px-[75px] bg-white rounded-[20px] shadow dark:bg-[#111111] dark:border-gray-700 pt-[100px]">
                         <img src='./pierre_lessard.png' className='w-[240px] h-[240px] rounded-[20px] translate-x-[1%] absolute transform -mt-[258px]' alt="avatar"></img>
                         <div className='max-w-[250px] pt-2 flex flex-col justify-center items-center m-auto'>
@@ -58,7 +58,7 @@ function App() {
                         </div>
                     </div>
                 </div>
-                <div class="justify right col-span-8 pt-[101px] text-white pr-[10%] pl-[5%]">
+                <div class="justify right col-span-8 text-white pr-[10%] pl-[5%]">
                     <Nav/>
                     <div className='justify-center'>
                         <div className='lg:rounded-2xl bg-white dark:bg-[#111111] p-10 font-serif'>
@@ -66,6 +66,7 @@ function App() {
                             <p className='p-4 font-sans text-[#9aa19e]'>
                             Third year university student pursuing a Specialist Degree in Computer Science (BS) at the University of Toronto. Aiming to apply knowledge of Computer Science to further my experience and understanding of the field of computer programming.
                             </p>
+                            <h1>text</h1><h1>text</h1><h1>text</h1><h1>text</h1><h1>text</h1><h1>text</h1><h1>text</h1><h1>text</h1><h1>text</h1><h1>text</h1><h1>text</h1><h1>text</h1><h1>text</h1><h1>text</h1><h1>text</h1><h1>text</h1><h1>text</h1><h1>text</h1><h1>text</h1><h1>text</h1><h1>text</h1><h1>text</h1><h1>text</h1><h1>text</h1><h1>text</h1><h1>text</h1><h1>text</h1><h1>text</h1><h1>text</h1><h1>text</h1>
                         </div>
                     </div>   
                 </div>
