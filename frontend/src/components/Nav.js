@@ -7,8 +7,8 @@ const Nav = ({ homeRef, educationRef, workRef, projectRef }) => {
 
   return (
     <>
-    <div className='lg:w-[450px] h-[144px] hidden lg:block p-[30px] ml-auto mb-10 rounded-[16px] bg-white dark:bg-[#111111]'>
-        <div className='flex'>
+    <div className='w-[380px] lg:w-[450px] h-[100px] lg:h-[144px] p-[15px] lg:p-[30px] ml-auto mb-5 lg:mb-10 rounded-[16px] bg-white dark:bg-[#111111]'>
+        <div className='flex justify-center'>
             <a href='/home'>
                 <NavButton class='pl-10' iconClasses="fa fa-home" bText="Home" isSelected={true}/>
             </a>

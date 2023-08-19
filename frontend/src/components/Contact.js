@@ -13,7 +13,7 @@ const Contact = () => {
     return (
         <>
         <script src="https://kit.fontawesome.com/653fee62bb.js" crossorigin="anonymous"></script>
-        <div className='mt-5 inline-block dark:bg-[#1D1D1D] px-5 py-3 rounded-lg w-[350px]'>
+        <div className='mt-5 inline-block dark:bg-[#1D1D1D] px-5 py-3 rounded-lg lg:w-[350px]'>
             <h1 class='pb-2 pr-8 text-white text-center border-b border-[#3D3D3D]'>Click to Copy:</h1>
 
             <div className="flex py-2.5 border-b border-[#3D3D3D] cursor-pointer" onClick={() => handleClick('978-987-8812')}> 
