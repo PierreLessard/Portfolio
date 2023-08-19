@@ -11,6 +11,12 @@ function App() {
 
     return (
     <>
+        <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1"/>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+            <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"/>
+            <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet"></link>
+        </head>
         <Router>
             <Routes>
                 <Route path="/" element={<Home/>} />
@@ -20,7 +26,9 @@ function App() {
                 <Route path="*" element={<NotFound/>}/>
             </Routes>
         </Router>
-        
+        <body>
+            <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+        </body>
     </>
   );
 }
