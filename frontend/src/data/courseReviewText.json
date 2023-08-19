@@ -1,0 +1,17 @@
+{
+    "introduction": "This page includes my course reviews for several University of Toronto computer science courses, giving a description of my experience in the course and an understanding of the course content. Primarily for my own use, but also for anyone else who may be considering several different course choices. To be finished!",
+    "reviews": [
+        {
+            "code":"CSC110",
+            "name":"Foundations of Computer Science I",
+            "description":"Good course, review to be completed",
+            "rating":5
+        },
+        {
+            "code":"CSC111",
+            "name":"Foundations of Computer Science II",
+            "description":"Good course, review to be completed",
+            "rating":4
+        }
+    ]
+}
