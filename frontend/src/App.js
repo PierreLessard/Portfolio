@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Route, Routes} from "react-router-dom";
 import './App.css';
 import { Home } from "./pages/Home";
 import { Projects } from "./pages/Projects"
@@ -17,15 +17,13 @@ function App() {
             <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"/>
             <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet"></link>
         </head>
-        <Router>
-            <Routes>
-                <Route path="/" element={<Home/>} />
-                <Route path="/home" element={<Home/>} />
-                <Route path="/projects" element={<Projects/>} />
-                <Route path="/courses" element={<Courses/>} />
-                <Route path="*" element={<NotFound/>}/>
-            </Routes>
-        </Router>
+        <Routes>
+            <Route path="/" element={<Home/>} />
+            <Route path="/home" element={<Home/>} />
+            <Route path="/projects" element={<Projects/>} />
+            <Route path="/courses" element={<Courses/>} />
+            <Route path="*" element={<NotFound/>}/>
+        </Routes>
         <body>
             <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
         </body>

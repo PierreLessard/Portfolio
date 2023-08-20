@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.56f63ddd.css",
+    "main.js": "/portfolio/static/js/main.51f44998.js",
+    "static/js/787.cda612ba.chunk.js": "/portfolio/static/js/787.cda612ba.chunk.js",
+    "static/media/bg1.jpg": "/portfolio/static/media/bg1.4bc8d97b116ba0f14039.jpg",
+    "static/media/PierreLessardResume.pdf": "/portfolio/static/media/PierreLessardResume.ff1c21d9bc52622c18f8.pdf",
+    "index.html": "/portfolio/index.html",
+    "main.56f63ddd.css.map": "/portfolio/static/css/main.56f63ddd.css.map",
+    "main.51f44998.js.map": "/portfolio/static/js/main.51f44998.js.map",
+    "787.cda612ba.chunk.js.map": "/portfolio/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56f63ddd.css",
+    "static/js/main.51f44998.js"
+  ]
+}
