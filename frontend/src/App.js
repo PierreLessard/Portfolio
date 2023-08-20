@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, HashRouter } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css';
 import { Home } from "./pages/Home";
 import { Projects } from "./pages/Projects"
@@ -18,7 +18,6 @@ function App() {
             <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet"></link>
         </head>
         <Router>
-            <HashRouter basename="/">
             <Routes>
                 <Route path="/" element={<Home/>} />
                 <Route path="/home" element={<Home/>} />
@@ -26,7 +25,6 @@ function App() {
                 <Route path="/courses" element={<Courses/>} />
                 <Route path="*" element={<NotFound/>}/>
             </Routes>
-            </HashRouter>
         </Router>
         <body>
             <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
