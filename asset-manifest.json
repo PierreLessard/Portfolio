@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.59dfa14a.css",
-    "main.js": "/static/js/main.e2c1fcdb.js",
-    "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
-    "static/media/bg1.jpg": "/static/media/bg1.4bc8d97b116ba0f14039.jpg",
-    "static/media/PierreLessardResume.pdf": "/static/media/PierreLessardResume.1714d94c4a16fed37e94.pdf",
-    "index.html": "/index.html",
-    "main.59dfa14a.css.map": "/static/css/main.59dfa14a.css.map",
-    "main.e2c1fcdb.js.map": "/static/js/main.e2c1fcdb.js.map",
-    "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
+    "main.css": "/portfolio/static/css/main.56f63ddd.css",
+    "main.js": "/portfolio/static/js/main.7bf88326.js",
+    "static/js/787.cda612ba.chunk.js": "/portfolio/static/js/787.cda612ba.chunk.js",
+    "static/media/bg1.jpg": "/portfolio/static/media/bg1.4bc8d97b116ba0f14039.jpg",
+    "static/media/PierreLessardResume.pdf": "/portfolio/static/media/PierreLessardResume.1714d94c4a16fed37e94.pdf",
+    "index.html": "/portfolio/index.html",
+    "main.56f63ddd.css.map": "/portfolio/static/css/main.56f63ddd.css.map",
+    "main.7bf88326.js.map": "/portfolio/static/js/main.7bf88326.js.map",
+    "787.cda612ba.chunk.js.map": "/portfolio/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.59dfa14a.css",
-    "static/js/main.e2c1fcdb.js"
+    "static/css/main.56f63ddd.css",
+    "static/js/main.7bf88326.js"
   ]
 }
